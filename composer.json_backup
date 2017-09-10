@@ -1,0 +1,21 @@
+{
+    "name": "sashsvamir/yii2-jquery.scrolltop",
+    "description": "JQuery scrollTop button",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Shchukin",
+            "email": "alexander@shykin.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/jquery": ">2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "sashsvamir\\scrollTop\\": ""
+        }
+    }
+}
